@@ -3,7 +3,7 @@
     "description": "Create your own simple Twig extensions.",
     "type": "craft-plugin",
     "keywords": ["craftcms", "plugin", "twig"],
-    "license": "Craft",
+    "license": "MIT",
     "authors": [
         {
             "name": "oof. Studio",
