@@ -1,5 +1,3 @@
-> :rotating_light: Twig Toolbox is still under development. Check back soon!
-
 # Twig Toolbox for Craft CMS
 
 _The simplest way to keep business logic out of your Twig templates._
