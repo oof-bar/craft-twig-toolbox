@@ -26,7 +26,7 @@ Then, copy this into `config/twig-toolbox.php`:
 ];
 ```
 
-> :lightbulb: If you’re in the mood for a challenge, writing [your own Twig extension](https://craftcms.com/docs/4.x/extend/extending-twig.html) is a great way to get familiar with custom module development.
+> :bulb: If you’re in the mood for a challenge, writing [your own Twig extension](https://craftcms.com/docs/4.x/extend/extending-twig.html) is a great way to get familiar with custom module development.
 
 Let’s look at some examples of how each language feature can be used.
 
