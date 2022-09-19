@@ -1,0 +1,32 @@
+{
+    "name": "oofbar/craft-twig-toolbox",
+    "description": "Create your own simple Twig extensions.",
+    "type": "craft-plugin",
+    "keywords": ["craftcms", "plugin", "twig"],
+    "license": "Craft",
+    "authors": [
+        {
+            "name": "oof. Studio",
+            "homepage": "https://oof.studio"
+        }
+    ],
+    "support": {
+        "email": "hello@oof.studio",
+        "issues": "https://github.com/oof-bar/craft-twig-toolbox/issues?state=open",
+        "source": "https://github.com/oof-bar/craft-twig-toolbox",
+        "docs": "https://github.com/oof-bar/craft-twig-toolbox/blob/main/README.md"
+    },
+    "require": {
+        "craftcms/cms": "^4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "oofbar\\twigtoolbox\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Twig Toolbox",
+        "handle": "twig-toolbox",
+        "class": "oofbar\\twigtoolbox\\TwigToolbox"
+    }
+}
