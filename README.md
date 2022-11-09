@@ -156,12 +156,28 @@ return [
 
 ## Tips + Tricks
 
+### Callables
+
+PHP has a special “type” for [callable](https://www.php.net/manual/en/language.types.callable.php) values. This includes the anonymous functions or “closures” we’ve used so far, in addition to a few other syntaxes that make it simple to add proxies to native PHP and Craft functions:
+
+```php
+use craft\helpers\Number;
+
+return [
+    'filters' => [
+        // Built-in PHP functions:
+        'chunk' => 'array_chunk',
+        // Craft helper proxy:
+        'roman' => [Number::class, 'upperRoman'],
+    ],
+];
+```
+
 ### Handling Types
 
 Some of the functions above could be made even more flexible by accepting the special `mixed` type, or a [union type](https://www.php.net/manual/en/language.types.declarations.php#language.types.declarations.composite.union). For example, the `expensive` test could do some type checking and normalization like this...
 
 ```php
-
 <?php
 
 use craft\elements\Entry;
