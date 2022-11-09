@@ -1,6 +1,6 @@
 {
     "name": "oofbar/craft-twig-toolbox",
-    "description": "Create your own simple Twig extensions.",
+    "description": "Create your own Twig helpers.",
     "type": "craft-plugin",
     "keywords": ["craftcms", "plugin", "twig"],
     "license": "MIT",
