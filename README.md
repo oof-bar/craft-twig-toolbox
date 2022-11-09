@@ -34,7 +34,7 @@ Let’s look at some examples of how each language feature can be used.
 
 &rarr; Documentation on [Twig Filters](https://twig.symfony.com/doc/3.x/templates.html#filters)
 
-The `filters` key should contain alphanumeric keys and [functions](https://www.php.net/manual/en/functions.user-defined.php) as values. Filters _always_ have at least one argument!
+The `filters` key should contain alphanumeric keys and [functions](https://www.php.net/manual/en/functions.user-defined.php) or [callables](https://www.php.net/manual/en/language.types.callable.php) as values. Filters _always_ have at least one argument!
 
 #### Example
 
