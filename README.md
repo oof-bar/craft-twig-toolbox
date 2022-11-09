@@ -215,8 +215,8 @@ Consider how Twig can help you generate HTML, rather than trying to build it up 
 
 ```twig
 <div class="{{ bem('product', [
-    product is expensive ? 'expensive',
-    currentUser is member ? 'member-pricing',
+    product is expensive ? 'expensive' : null,
+    currentUser is member ? 'member-pricing' : null,
 ]) }}">
     {{ product.title }}
 </div>
