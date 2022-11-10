@@ -4,4 +4,5 @@ return [
     'filters' => [],
     'functions' => [],
     'globals' => [],
+    'tests' => [],
 ];
