@@ -1,6 +1,6 @@
 # Release Notes for Twig Toolbox
 
-## 1.0.2 - 2022-11-10
+## 1.0.2 - 2022-12-15
 - Added `tests` to default config file.
 - Corrected date of 1.0.1 release in changelog.
 
