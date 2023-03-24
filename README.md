@@ -11,7 +11,7 @@ Twig Toolbox lets you inject custom filters, functions, globals, and tests into 
 To get started, install the plugin from the Craft Plugin Store, or use Composer:
 
 ```bash
-composer require oof-bar/craft-twig-toolbox
+composer require oofbar/craft-twig-toolbox
 php craft plugins/install twig-toolbox
 ```
 
